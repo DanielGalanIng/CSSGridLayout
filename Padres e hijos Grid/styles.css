@@ -5,19 +5,19 @@
 }
 
 .container {
- background-color: #264653;
- width: 100%;
- height: 150px;
+    display: grid;
+    background-color: #264653;
+    width: 100%;
+    height: 150px;
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
 }
 
 .item {
- background-color: #2A9D8F;
- width: 50%;
- height: 50%;
+    background-color: #2A9D8F;
+    display: grid;
+    grid-template: repeat(2,1fr) / repeat(2,1fr);
 }
 
 .sub-item {
- background-color: #E9C46A;
- width: 50%;
- height: 50%;
+    background-color: #E9C46A;
 }
