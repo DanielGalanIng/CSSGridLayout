@@ -1,0 +1,32 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+display: grid;
+grid-template: repeat(4, 1fr) / repeat(4,1fr);
+gap: 10px;
+width: 500px;
+height: 500px;
+background-color: coral;
+}
+
+.item-a {
+ grid-column: 1 /2;
+ grid-row: 1 / 2;
+ background-color: blue;
+}
+
+.item-b {
+ grid-column: 1 /2;
+ grid-row: 2 /3;
+ background-color: red;
+}
+
+.item-c {
+ grid-row: 2 /3;
+ grid-column: 2/3;
+ background-color: blueviolet;
+}
